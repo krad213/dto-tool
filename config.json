@@ -1,0 +1,13 @@
+{
+  "jarLocations": [
+    "jarToLoadClassesFrom.jar"
+  ],
+  "entityPackages": [
+    "packages.where.to.search.for.dependent.classes"
+  ],
+  "classNames": [
+    "classes.to.create.dto.From"
+  ],
+  "targetPackage": "pack.age.for.generated.dtos",
+  "targetDirectory": "generated"
+}
