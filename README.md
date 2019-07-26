@@ -141,7 +141,7 @@ if "config" argument is not set "config.json" file will be used
 ```
 *jarLocations* - Array containing paths to jar(s) with source model
 
-*entityPackages* - Array Dependent classes will be searched only in this packages if class is outside of this array, original class will be used in DTO
+*entityPackages* - Array dependent classes will be searched only in this packages if class is outside of this array, original class will be used in DTO
  
 *classNames* - Array of classes, should be used as "entry-point", DTOs will be created for given classes and all dependent classes
 
