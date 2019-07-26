@@ -1,4 +1,4 @@
-Simple tool to generate DTO model from business-logic model or DB model, or any kind of classes containing valid getters
+**Simple tool to generate DTO model from business-logic model or DB model, or any kind of classes containing valid getters**
 
 Tool is used to create RAW copy of model, all excess data should be removed manually afterwards
 
@@ -109,17 +109,21 @@ public class TestClass2Dto {
     }
 }
 ```
-Building:
+**Building:**
+
 run
+
 ./gradlew build
+
 executable jar will be placed to build/libs directory
 
-Usage:
+**Usage:**
+
 java -jar dto-tool.jar config.json
 
 if "config" argument is not set "config.json" file will be used
 
-Configuration:
+**Configuration:**
 ```json
 {
   "jarLocations": [
