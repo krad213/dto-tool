@@ -139,14 +139,14 @@ if "config" argument is not set "config.json" file will be used
   "targetDirectory": "generated"
 }
 ```
-jarLocations - Array containing paths to jar(s) with source model
+*jarLocations* - Array containing paths to jar(s) with source model
 
-entityPackages - Array Dependent classes will be searched only in this packages if class is outside of this array, original class will be used in DTO
+*entityPackages* - Array Dependent classes will be searched only in this packages if class is outside of this array, original class will be used in DTO
  
-classNames - Array of classes, should be used as "entry-point", DTOs will be created for given classes and all dependent classes
+*classNames* - Array of classes, should be used as "entry-point", DTOs will be created for given classes and all dependent classes
 
-targetPackage - all created DTOs will be placed to this package
+*targetPackage* - all created DTOs will be placed to this package
 
-targetDirectory - output directory for generated DTOs
+*targetDirectory* - output directory for generated DTOs
 
  
