@@ -6,7 +6,7 @@
 
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin on the JVM.
-    id("org.jetbrains.kotlin.jvm").version("1.3.31")
+    kotlin("jvm").version("1.3.41")
 
     // Apply the application plugin to add support for building a CLI application.
     application
@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     // Use the Kotlin JDK 8 standard library.
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation(kotlin("stdlib-jdk8"))
 
     implementation("com.squareup:javapoet:1.9.0")
     
@@ -33,10 +33,10 @@ dependencies {
     implementation("org.reflections:reflections:0.9.11")
 
     // Use the Kotlin test library.
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation(kotlin("test"))
 
     // Use the Kotlin JUnit integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    testImplementation(kotlin("test-junit"))
 }
 
 application {
